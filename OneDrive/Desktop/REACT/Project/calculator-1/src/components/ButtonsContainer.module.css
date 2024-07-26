@@ -1,0 +1,17 @@
+.buttonsContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color:darksalmon;
+}
+
+.button {
+  width: 45px;
+  height : 45px;
+  margin: 4px;
+  color:brown;
+  background-color: wheat;
+  font-weight: 800;
+  font-size: 20px;
+
+}
