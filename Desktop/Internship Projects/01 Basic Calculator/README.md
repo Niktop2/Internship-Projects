@@ -24,7 +24,7 @@ This Calculator App is a responsive, interactive, and easy-to-use web calculator
 
 ## Installation
 1. Clone the repository to your local machine:
-   #git clone https://github.com/yourusername/calculator-app.git
+   #git clone git@github.com:Niktop2/Internship-Projects.git
 2. Navigate to the project directory:
    #cd calculator-app
 3. Open index.html in your web browser.

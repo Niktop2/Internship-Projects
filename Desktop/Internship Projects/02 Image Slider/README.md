@@ -25,7 +25,7 @@ The Image Slider project is a simple yet elegant image slider built with HTML, C
 
 ## Installation
 1. Clone the repository to your local machine:
-   #git clone https://github.com/yourusername/image-slider.git
+   #git clone git@github.com:Niktop2/Internship-Projects.git
 
 2. Navigate to the project directory:
    #cd image-slider

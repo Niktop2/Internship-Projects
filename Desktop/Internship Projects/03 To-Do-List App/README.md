@@ -25,7 +25,7 @@ The Todo App is a simple and intuitive web application that allows users to mana
 
 ## Installation
 1. Clone the repository to your local machine:
-   #git clone https://github.com/yourusername/todo-app.git
+   #git clone git@github.com:Niktop2/Internship-Projects.git
 2. Navigate to the project directory:
    #cd todo-app
 3. Open index.html in your web browser.
