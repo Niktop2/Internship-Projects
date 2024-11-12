@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Slider</title>
+  <!-- Link to external CSS file for slider styling -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Main container for the image slider -->
+  <div class="container">
+    
+    <!-- Next and previous buttons for sliding images manually -->
+    <span class="next">&#10095;</span> 
+    <span class="prev">&#10094;</span> 
+
+    <!-- Section to hold the sliding images in a row -->
+    <section class="slides-row">
+      <!-- Duplicate of the last image for seamless transition when sliding left -->
+      <div class="slide" id="lastImageDuplicate">
+        <img src="Img/car7.jpg" alt="Screenshot 5">
+      </div>
+
+      <!-- Real images in the slider -->
+      <div class="slide">
+        <img src="Img/car1.jpg" alt="Screenshot 1">
+      </div>
+      <div class="slide">
+        <img src="Img/car10.webp" alt="Screenshot 2">
+      </div>
+      <div class="slide">
+        <img src="Img/car11.jpg" alt="Screenshot 3">
+      </div>
+      <div class="slide">
+        <img src="Img/car8.jpg" alt="Screenshot 4">
+      </div>
+      <div class="slide">
+        <img src="Img/car7.jpg" alt="Screenshot 5">
+      </div>
+      
+      <!-- Duplicate of the first image for seamless transition when sliding right -->
+      <div class="slide" id="firstImageDuplicate">
+        <img src="Img/car1.jpg" alt="Screenshot 1">
+      </div>
+    </section>
+
+    <!-- Section for navigation dots to indicate the current slide -->
+    <section class="dots">
+      <!-- Each dot corresponds to an image slide -->
+      <div class="dot active"></div> <!-- First dot is active by default -->
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+    </section>
+  </div>
+
+  <!-- Link to external JavaScript file for slider functionality -->
+  <script src="script.js"></script>
+</body>
+</html>

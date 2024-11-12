@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* Reset default margin, padding, and box-sizing, and apply Poppins font */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Style for body to center the calculator on the screen */
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #e3f9ff; 
+}
+
+/* Calculator container styling */
+.calculator {
+  border: 10px solid #717377;
+  padding: 20px;
+  border-radius: 16px;
+  background: transparent;
+  background: linear-gradient(45deg, #0a0a0a, #3a4452); 
+  box-shadow:  0px 3px 15px rgba(113, 115, 119, 0.5); 
+}
+
+/* Calculator input field styling */
+input {
+  width: 320px;
+  border: none;
+  padding: 24px;
+  margin: 10px;
+  background: transparent;
+  box-shadow: 0px 3px 15px rgba(84, 84, 84, 0.5); 
+  font-size: 40px;
+  text-align: right; 
+  cursor: pointer;
+  border-radius: 10px;
+  color: #ffffff; 
+}
+
+/* Placeholder color for input field */
+input::placeholder {
+  color: #ffffff; 
+}
+
+/* General button styling */
+.btn {
+  border: none;
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  border-radius: 20%;
+  background: transparent;
+  color: #ffffff; 
+  font-size: 25px;
+  font-weight: 500;
+  box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1); /* Light shadow */
+  cursor: pointer;
+}
+
+/* Button container positioning */
+.button {
+  margin-left: 5px;
+}
+
+/* Style for the equal button */
+.equalbtn {
+  background-color: blue; 
+}
+
+/* Style for the percentage button */
+.percentage {
+  background-color: #fb7c14; 
+}
+
+/* Style for operator buttons */
+.operator {
+  background-color: orange; 
+}
+
+/* Styles for danger buttons (AC and DEL) */
+.danger {
+  background-color: red; 
+}
+
+.danger2 {
+  background-color: orangered;
+}
+
+/* Style for number buttons */
+.otherBtn {
+  background-color: darkgrey; 
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  /* Adjust calculator and button sizes for smaller screens */
+  .calculator {
+    padding: 15px;
+  }
+
+  input {
+    font-size: 1.5rem;
+    padding: 15px;
+    margin: 8px 0;
+  }
+
+  .btn {
+    width: 50px;
+    height: 50px;
+    margin: 8px;
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Adjust calculator and button sizes further for very small screens */
+  .calculator {
+    padding: 10px;
+  }
+
+  input {
+    font-size: 1.2rem;
+    padding: 10px;
+    margin: 6px 0;
+  }
+
+  .btn {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    font-size: 1rem;
+  }
+}
