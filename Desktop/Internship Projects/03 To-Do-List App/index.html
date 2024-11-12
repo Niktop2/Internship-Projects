@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo App</title>
+  
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  <!-- Main container for the todo app -->
+  <div class="container">
+    
+    <!-- Stats container for progress and task completion stats -->
+    <div class="stats-container">
+
+      <!-- Section to display app title, motivational text, and progress bar -->
+      <div class="details">
+          <h1>Todo App</h1>                    <!-- App title -->
+          <p>Keep it up!</p>                   <!-- Motivational message -->
+
+          <!-- Progress bar container -->
+          <div id="progressBar">
+              <div id="progress"></div> <!-- Actual progress bar, updated dynamically -->
+          </div>
+      </div>
+      
+      <!-- Section for displaying the count of completed and total tasks -->
+      <div class="stats-numbers">
+        <p id="numbers">0 / 0</p>              <!-- Shows completed / total tasks -->
+      </div>
+    </div>
+
+    <!-- Form for adding new tasks -->
+    <form action="">
+      <input id="taskInput" type="text" placeholder="Write your task"> <!-- Text input for task description -->
+      <button id="newTask" type="submit">+</button>                    <!-- Button to add the new task -->
+    </form>
+
+    <!-- Unordered list to hold all task items dynamically created by JavaScript -->
+    <ul id="task-list"></ul>
+  </div>
+
+  <!-- Link to external JavaScript file for functionality -->
+  <script src="./script.js"></script>
+</body>
+</html>

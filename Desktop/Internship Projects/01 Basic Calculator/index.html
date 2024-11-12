@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css"> <!-- Link to external CSS file for styling -->
+</head>
+<body>
+  <!-- Main calculator container -->
+  <div class="calculator">
+
+       <!-- Display screen for the calculator -->
+       <input type="text" placeholder="0" id="inputBox"> <!-- Placeholder shows '0' initially -->
+
+    <!-- Button container for calculator -->
+    <div class="button">  
+
+       <!-- Row 1: Special function buttons (AC, Delete, %, Division) -->
+       <div>
+            <button class="btn danger">AC</button> 
+            <button class="btn danger2">DEL</button> 
+            <button class="btn percentage">%</button> 
+            <button class="btn operator">/</button> 
+       </div>
+       <!-- Row 2: Number buttons (7, 8, 9) and Multiply operator -->
+       <div>
+            <button class="btn otherBtn">7</button>
+            <button class="btn otherBtn">8</button>
+            <button class="btn otherBtn">9</button>
+            <button class="btn operator">*</button> 
+       </div>
+       <!-- Row 3: Number buttons (4, 5, 6) and Subtract operator -->
+       <div>
+            <button class="btn otherBtn">4</button>
+            <button class="btn otherBtn">5</button>
+            <button class="btn otherBtn">6</button>
+            <button class="btn operator">-</button> 
+       </div>
+       <!-- Row 4: Number buttons (1, 2, 3) and Add operator -->
+       <div>
+            <button class="btn otherBtn">1</button>
+            <button class="btn otherBtn">2</button>
+            <button class="btn otherBtn">3</button>
+            <button class="btn operator">+</button> 
+       </div>
+       <!-- Row 5: Double Zero, Zero, Decimal, and Equals button -->
+       <div>
+            <button class="btn otherBtn">00</button> 
+            <button class="btn otherBtn">0</button> 
+            <button class="btn otherBtn">.</button> 
+            <button class="btn equalbtn">=</button> 
+       </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script> <!-- Link to JavaScript file for calculator functionality -->
+</body>
+</html>
